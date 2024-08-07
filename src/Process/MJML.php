@@ -8,7 +8,7 @@ use Illuminate\Support\HtmlString;
 use Illuminate\View\View;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;
-
+#[\AllowDynamicProperties]
 class MJML
 {
     /**
